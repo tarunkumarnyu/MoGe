@@ -421,3 +421,8 @@ FodyWeavers.xsd
 /pretrained
 /.gradio
 /tmp
+# Model artifacts (too large for git)
+*.onnx
+*.onnx.data
+*.trt
+*.engine
